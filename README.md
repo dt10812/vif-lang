@@ -4,7 +4,7 @@ VIF  is a custom language for generating web pages.
 
 ## Installation
 
-Install the VIF parser globally with npm:
+Install the VIF parser globally:
 
 ```bash
-npm install -g vif-lang
+https://github.com/dt10812/vif-lang.git

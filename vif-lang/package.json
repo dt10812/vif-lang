@@ -1,0 +1,19 @@
+{
+    "name": "vif-lang",
+    "version": "1.0.0",
+    "description": "A simple language to generate HTML from VIF files",
+    "main": "src/parser.js",
+    "scripts": {
+      "start": "node bin/vif.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/your-username/vif-lang.git"
+    },
+    "author": "Your Name",
+    "license": "MIT"
+  }
+  

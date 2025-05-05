@@ -1,11 +1,11 @@
-import { defineConfig } from "vite"
-import react from "@vitejs/plugin-react"
-import path from "path"
-import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal"
-import { cartographer } from "@replit/vite-plugin-cartographer"
-import { fileURLToPath } from "url"
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import path from "path";
+import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
+import { cartographer } from "@replit/vite-plugin-cartographer";
+import { fileURLToPath } from "url";
 
-const __dirname = fileURLToPath(new URL(".", import.meta.url))
+const __dirname = fileURLToPath(new URL(".", import.meta.url));
 
 export default defineConfig({
   plugins: [
@@ -29,7 +29,7 @@ export default defineConfig({
     emptyOutDir: true
   },
   server: {
-    port: 3000, // Local server port
-    open: true // Auto opens browser
+    port: 3000,
+    open: true
   }
-})
+});

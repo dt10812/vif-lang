@@ -12,10 +12,10 @@ const Home = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="font-heading text-3xl md:text-4xl font-bold text-primary mb-6">
-                Science Fair Project: Group 7 in 7A6
+                Science Fair Project: Group 8 in 7A6
               </h2>
               <p className="text-lg mb-6">
-                We are Group 7 in 7A6, doing this year's science fair on the
+                We are Group 8 in 7A6, doing this year's science fair on the
                 topic of sustainable energy. We have collaborated with each
                 other to come up with a revolutionary, groundbreaking plan to
                 solve the global problem of energy scarcity once and for all.

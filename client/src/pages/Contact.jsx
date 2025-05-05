@@ -69,7 +69,7 @@ const Contact = () => {
                     </p>
                     <p className="flex items-center">
                       <Mail className="h-5 w-5 text-primary mr-2" />
-                      research@atmospower.org
+                      ducthinh100812@gmail.com
                     </p>
                   </div>
                 </div>
@@ -277,7 +277,7 @@ const Contact = () => {
                 fontSize="12"
                 fontWeight="bold"
               >
-                Cambridge, MA
+                Ho Chi Minh City, Vietnam
               </text>
             </g>
 

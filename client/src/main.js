@@ -1,9 +1,8 @@
+import React from "react"; // Explicitly import React
 import { createRoot } from "react-dom/client";
-import React from "react"; // Ensure React is imported
 import App from "./App";
 import "./index.css";
 
-// Properly define the root before rendering
 const rootElement = document.getElementById("root");
 
 if (rootElement) {

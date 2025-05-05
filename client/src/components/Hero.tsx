@@ -14,7 +14,7 @@ const Hero = () => {
             transition={{ duration: 0.6 }}
           >
             <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              AtmosPower: <br/>Group 7 in 7A6
+              AtmosPower: <br/>Group 8 in 7A6
             </h1>
             <p className="text-lg md:text-xl mb-8">
               Our science fair project demonstrates how to pull electricity out of thin air - a sustainable energy solution that could change the world.

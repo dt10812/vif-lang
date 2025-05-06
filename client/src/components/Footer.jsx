@@ -142,6 +142,14 @@ const Footer = () => {
                     Licensing
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="/"
+                    className="text-gray-400 hover:text-white transition-colors"
+                  >
+                    Play a game
+                  </a>
+                </li>
               </ul>
             </div>
           </div>

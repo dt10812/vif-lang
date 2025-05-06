@@ -1,6 +1,5 @@
 /* Font definitions */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap');
-@import url('https://webclify.vercel.app/css/library/webclify-css-library/1.0.0/webclify-css-library.css');
 
 @tailwind base;
 @tailwind components;

@@ -70,12 +70,17 @@ const Contact = () => {
                     </p>
                   </div>
                 </div>
-              <div>
+                <div>
                   <h4 className="font-heading font-bold text-lg mb-3">
                     Group Members
                   </h4>
                   <div className="space-y-3">
-                    <p className="flex items-center">David, Minh, Minh Minh, Floppa - Group 8, 7A6, Science Fair 2025</p>
+                    <p className="flex items-center">
+                      David, Minh, Minh Minh, Floppa - Group 8, 7A6, Science Fair
+                      2025
+                    </p>
+                  </div>
+                </div>
                 <div className="mb-8">
                   <h4 className="font-heading font-bold text-lg mb-3">
                     Follow Our Progress

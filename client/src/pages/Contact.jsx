@@ -13,6 +13,13 @@ import {
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
+const PictureGallery = () => {
+  const pictureUrls = [
+    'https://example.com/picture1.jpg',
+    'https://example.com/picture2.jpg',
+    'https://example.com/picture3.jpg',
+    'https://example.com/picture4.jpg',
+  ];
 const Contact = () => {
   return (
     <div>

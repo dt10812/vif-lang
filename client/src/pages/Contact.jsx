@@ -1,6 +1,6 @@
-import { motion } from "framer-motion"
-import ContactForm from "@/components/ContactForm"
-import { Link } from "wouter"
+import { motion } from "framer-motion";
+import ContactForm from "@/components/ContactForm";
+import { Link } from "wouter";
 import {
   Mail,
   Phone,
@@ -8,10 +8,10 @@ import {
   Twitter,
   Linkedin,
   Instagram,
-  Youtube
-} from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
+  Youtube,
+} from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 
 const Contact = () => {
   return (
@@ -32,7 +32,6 @@ const Contact = () => {
               out to our team of scientists and engineers.
             </p>
           </motion.div>
-
           <div className="flex flex-col md:flex-row">
             <motion.div
               className="md:w-1/2 mb-8 md:mb-0 md:pr-8"
@@ -42,7 +41,6 @@ const Contact = () => {
             >
               <ContactForm />
             </motion.div>
-
             <motion.div
               className="md:w-1/2 md:pl-8"
               initial={{ opacity: 0, x: 30 }}
@@ -53,27 +51,31 @@ const Contact = () => {
                 <h3 className="font-heading text-2xl font-bold text-primary mb-6">
                   Connect With Us
                 </h3>
-
                 <div className="mb-8">
                   <h4 className="font-heading font-bold text-lg mb-3">
                     Research Headquarters
                   </h4>
                   <div className="space-y-3">
                     <p className="flex items-center">
-                      <MapPin className="h-5 w-5 text-primary mr-2" />
-                      123 Innovation Way, Cambridge, MA 02139
+                      <MapPin className="h-5 w-5 text-primary mr-2" /> 123
+                      Innovation Way, Cambridge, MA 02139
                     </p>
                     <p className="flex items-center">
-                      <Phone className="h-5 w-5 text-primary mr-2" />
-                      (555) 123-4567
+                      <Phone className="h-5 w-5 text-primary mr-2" /> (555)
+                      123-4567
                     </p>
                     <p className="flex items-center">
-                      <Mail className="h-5 w-5 text-primary mr-2" />
+                      <Mail className="h-5 w-5 text-primary mr-2" />{" "}
                       ducthinh100812@gmail.com
                     </p>
                   </div>
                 </div>
-
+              <div>
+                  <h4 className="font-heading font-bold text-lg mb-3">
+                    Group Members
+                  </h4>
+                  <div className="space-y-3">
+                    <p className="flex items-center">David, Minh, Minh Minh, Floppa - Group 8, 7A6, Science Fair 2025</p>
                 <div className="mb-8">
                   <h4 className="font-heading font-bold text-lg mb-3">
                     Follow Our Progress
@@ -105,7 +107,6 @@ const Contact = () => {
                     </a>
                   </div>
                 </div>
-
                 <div>
                   <h4 className="font-heading font-bold text-lg mb-3">
                     Join Our Newsletter
@@ -128,7 +129,6 @@ const Contact = () => {
           </div>
         </div>
       </section>
-
       <section className="py-16 md:py-24 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
@@ -140,7 +140,6 @@ const Contact = () => {
               organization.
             </p>
           </div>
-
           <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-heading text-lg font-bold text-primary mb-2">
@@ -153,7 +152,6 @@ const Contact = () => {
                 proposal.
               </p>
             </div>
-
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-heading text-lg font-bold text-primary mb-2">
                 Do you offer internships or job opportunities?
@@ -164,18 +162,16 @@ const Contact = () => {
                 contact us with your resume and area of interest.
               </p>
             </div>
-
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-heading text-lg font-bold text-primary mb-2">
                 Can I purchase a prototype for personal use?
               </h3>
               <p>
                 Our technology is still in the development phase and not yet
-                available for consumer purchase. Sign up for our newsletter to
-                be notified when products become available.
+                available for consumer purchase. Sign up for our newsletter to be
+                notified when products become available.
               </p>
             </div>
-
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-heading text-lg font-bold text-primary mb-2">
                 Do you offer educational materials for schools?
@@ -186,18 +182,16 @@ const Contact = () => {
                 school science classes. Contact our education team for details.
               </p>
             </div>
-
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-heading text-lg font-bold text-primary mb-2">
                 Are you seeking investors?
               </h3>
               <p>
-                We're open to discussions with strategic investors who align
-                with our mission of providing sustainable energy solutions.
-                Please contact our executive team for investment opportunities.
+                We're open to discussions with strategic investors who align with
+                our mission of providing sustainable energy solutions. Please
+                contact our executive team for investment opportunities.
               </p>
             </div>
-
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-heading text-lg font-bold text-primary mb-2">
                 Can your technology be used in my country?
@@ -211,7 +205,6 @@ const Contact = () => {
           </div>
         </div>
       </section>
-
       <section className="py-16 md:py-24 bg-primary text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="font-heading text-3xl font-bold mb-6">
@@ -236,7 +229,8 @@ const Contact = () => {
           </div>
         </div>
       </section>
-)
-}
+    </div>
+  );
+};
 
-export default Contact
+export default Contact;
